@@ -55,3 +55,4 @@ class Chunk extends Component{
     return LoadedComponent ? <LoadedComponent {...props} /> : this.renderLoading();
   }
 }
+export default Chunk;
